@@ -3,6 +3,20 @@ html{
     background-image: url('https://oboi.ws/wallpapers/17_3143_oboi_sinij_fon_s_blikom_1920x1080.jpg');
     background-repeat: repeat-y;
 }
+#container-1{
+    border: 5px rgba(34, 61, 141, 0.26);
+    height: 150px;
+    width: calc(100%-20px);
+    background-color:rgba(182, 224, 184, 0.336);
+    margin: auto;
+    padding-left: auto;
+    padding-top: 20px;
+    border-radius:20px; 
+    font-family:'segoe print';
+    font-size: 19px;
+    float:top;
+    color: red;
+}
 #zag{
     border: 5px rgba(34, 61, 141, 0.26);
     height: 100px;
