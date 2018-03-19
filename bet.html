@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Херня....</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <script type="text/javascript">
+    document.write('Запущено!!!!____________________________');
+    var sog = confirm('Подтвердите переход в  режим отображения JavaScript--)');
+    if (sog==true){
+        alert('Сайт перешел в режим отображения JavaScript!!!');
+        alert('Начнем!!!');
+        var raz = prompt('В данном режиме есть функции: \n1. Выбрать президента РФ \n2. Посчитать в нашем калькуляторе \n3. Поиграть в игру-викторину, победишь, выйграешь приз....');
+        switch (raz){
+            case'1':
+                var pr = prompt('Кандидаты: \n1. Путин \n2. В.В Путин \n3. Голосую за Путина!!! \n4. Однозначно Путин!!!');
+                if(pr==''){
+                    alert('Ты говно!!! Зачем нажал просто так???')
+                }
+                else{alert('Вы проголосовали!!!');
+                alert('В.В Путин выйграл выборы с 79% голосов...');
+                }
+            break;
+            case'2': 
+                alert("__Калькулятор__")
+                var a = parseInt(prompt('Введите первое число: '));
+                var b = parseInt(prompt('Введите второе число: '));
+                var dei = prompt('Выберите действие: \n  +  \n  -  \n  /  \n  *  ');
+                switch (dei){
+                    case'+':
+                        alert('______'+'ответ - '+ (a+b)+'______');
+                    break;
+                    case'-':
+                        alert('______'+'ответ - '+ (a-b)+'______');
+                        
+                    break;
+                    case'/':
+                        alert('______'+'ответ - '+ (a/b)+'______');
+                        
+                    break;
+                    case'*':
+                        alert('______'+'ответ - '+ (a*b)+'______');
+                        
+                    break;
+                    default: document.write('\n такой функции нет !!!');
+                }
+            break;
+            case'3': 
+                alert('Данная игра находится в разработке....\nДля вопросов пишите на страницу разработчика')
+            break;
+            default:document.write('\n такой функции нет !!!');
+            
+        }
+
+    }
+    else{
+        document.write("<br/> ВЫ приняли неверное решение, за это мы отдадим ваш голос Путину...");
+    }
+    
+    </script>
+</body>
+
+</html>
