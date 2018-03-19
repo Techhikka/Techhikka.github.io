@@ -4,65 +4,109 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Херня....</title>
+    <title>Beta-2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+    
 </head>
 
-<body>
-    <script type="text/javascript">
-    document.write('Запущено!!!!____________________________');
-    var sog = confirm('Подтвердите переход в  режим отображения JavaScript--)');
-    if (sog==true){
-        alert('Сайт перешел в режим отображения JavaScript!!!');
-        alert('Начнем!!!');
-        var raz = prompt('В данном режиме есть функции: \n1. Выбрать президента РФ \n2. Посчитать в нашем калькуляторе \n3. Поиграть в игру-викторину, победишь, выйграешь приз....');
-        switch (raz){
-            case'1':
-                var pr = prompt('Кандидаты: \n1. Путин \n2. В.В Путин \n3. Голосую за Путина!!! \n4. Однозначно Путин!!!');
-                if(pr==''){
-                    alert('Ты говно!!! Зачем нажал просто так???')
-                }
-                else{alert('Вы проголосовали!!!');
-                alert('В.В Путин выйграл выборы с 79% голосов...');
-                }
-            break;
-            case'2': 
-                alert("__Калькулятор__")
-                var a = parseInt(prompt('Введите первое число: '));
-                var b = parseInt(prompt('Введите второе число: '));
-                var dei = prompt('Выберите действие: \n  +  \n  -  \n  /  \n  *  ');
-                switch (dei){
-                    case'+':
-                        alert('______'+'ответ - '+ (a+b)+'______');
-                    break;
-                    case'-':
-                        alert('______'+'ответ - '+ (a-b)+'______');
-                        
-                    break;
-                    case'/':
-                        alert('______'+'ответ - '+ (a/b)+'______');
-                        
-                    break;
-                    case'*':
-                        alert('______'+'ответ - '+ (a*b)+'______');
-                        
-                    break;
-                    default: document.write('\n такой функции нет !!!');
-                }
-            break;
-            case'3': 
-                alert('Данная игра находится в разработке....\nДля вопросов пишите на страницу разработчика')
-            break;
-            default:document.write('\n такой функции нет !!!');
-            
-        }
-
-    }
-    else{
-        document.write("<br/> ВЫ приняли неверное решение, за это мы отдадим ваш голос Путину...");
-    }
+<body><div id="container-1">
+        <div id="zag">
+            <big>
+                Tech-Hikka
+            </big>
+        </div>
+        <div id="zag2">
+            <big>
+                Новостной сайт компании "Tech-Hikka"
+            </big>
+        </div>
+    </div>
     
-    </script>
+    
+       <div id="bok1">
+    <iframe  src="sp.html" width="100%" height="700" frameborder="0"></iframe>
+    </div>
+        <!--Место для статьи или новости-->
+        <div id="stat">
+            <!--<pre style="font-family:'Courier New', Courier, monospace">-->
+            <big>
+                <strong>
+                    <h1 align='center'>
+                        Beta-1
+                    </h1>
+                </strong>
+            </big>
+            <!--</pre>-->
+            <pre>
+                <big>
+                    Данный Beta раздел является тестовым, здесь тестируется JavaScript, 
+                    целью тестировки является отладка работы и компонентов сайта.
+                </big>
+                <script type="text/javascript">
+                    document.write('Запущено!!!!____________________________');
+                    var sog = confirm('Подтвердите переход в  режим отображения JavaScript--)');
+                    if (sog==true){
+                        alert('Сайт перешел в режим отображения JavaScript!!!');
+                        alert('Начнем!!!');
+                        var raz = prompt('В данном режиме есть функции: \n1. Выбрать президента РФ \n2. Посчитать в нашем калькуляторе \n3. Поиграть в игру-викторину, победишь, выйграешь приз....');
+                        switch (raz){
+                            case'1':
+                                var pr = prompt('Кандидаты: \n1. Путин \n2. В.В Путин \n3. Голосую за Путина!!! \n4. Однозначно Путин!!!');
+                                if(pr==''){
+                                    alert('Ты говно!!! Зачем нажал просто так???')
+                                }
+                                else{alert('Вы проголосовали!!!');
+                                alert('В.В Путин выйграл выборы с 79% голосов...');
+                                }
+                            break;
+                            case'2': 
+                                alert("__Калькулятор__")
+                                var a = parseInt(prompt('Введите первое число: '));
+                                var b = parseInt(prompt('Введите второе число: '));
+                                var dei = prompt('Выберите действие: \n  +  \n  -  \n  /  \n  *  ');
+                                switch (dei){
+                                    case'+':
+                                        alert('______'+'ответ - '+ (a+b)+'______');
+                                    break;
+                                    case'-':
+                                        alert('______'+'ответ - '+ (a-b)+'______');
+                                        
+                                    break;
+                                    case'/':
+                                        alert('______'+'ответ - '+ (a/b)+'______');
+                                        
+                                    break;
+                                    case'*':
+                                        alert('______'+'ответ - '+ (a*b)+'______');
+                                        
+                                    break;
+                                    default: document.write('\n такой функции нет !!!');
+                                }
+                            break;
+                            case'3': 
+                                alert('Данная игра находится в разработке....\nДля вопросов пишите на страницу разработчика')
+                            break;
+                            default:document.write('\n такой функции нет !!!');
+                            
+                        }
+                
+                    }
+                    else{
+                        document.write("<br/> ВЫ приняли неверное решение, за это мы отдадим ваш голос Путину...");
+                    }
+                    
+                    </script>
+        </div>
+        <div id="foot">
+            <address>Copyrights © 2018 Tech-Hikka. All Rights Reserved</address>
+        </div>
+    </body>
+    
+    </html>
+    
+    
 </body>
 
 </html>
+
